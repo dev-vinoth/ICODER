@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		841B4A761C7C3ADB006F3D84 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B4A731C7C3ADB006F3D84 /* MenuViewController.swift */; };
+		841B4A771C7C3ADB006F3D84 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B4A741C7C3ADB006F3D84 /* BaseViewController.swift */; };
+		841B4A781C7C3ADB006F3D84 /* PlayGroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B4A751C7C3ADB006F3D84 /* PlayGroundViewController.swift */; };
+		84527A761C72F24700E99DB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84527A751C72F24700E99DB4 /* AppDelegate.swift */; };
+		84527A7B1C72F24700E99DB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84527A791C72F24700E99DB4 /* Main.storyboard */; };
+		84527A7D1C72F24700E99DB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84527A7C1C72F24700E99DB4 /* Assets.xcassets */; };
+		84527A801C72F24700E99DB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84527A7E1C72F24700E99DB4 /* LaunchScreen.storyboard */; };
+		84527A8D1C72F27F00E99DB4 /* CloudCoderLogo-med.png in Resources */ = {isa = PBXBuildFile; fileRef = 84527A871C72F27F00E99DB4 /* CloudCoderLogo-med.png */; };
+		84527A8E1C72F27F00E99DB4 /* courseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84527A881C72F27F00E99DB4 /* courseTableViewController.swift */; };
+		84527A8F1C72F27F00E99DB4 /* problemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84527A891C72F27F00E99DB4 /* problemsTableViewController.swift */; };
+		84527A901C72F27F00E99DB4 /* sourcePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84527A8A1C72F27F00E99DB4 /* sourcePageViewController.swift */; };
+		84527A911C72F27F00E99DB4 /* problemStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84527A8B1C72F27F00E99DB4 /* problemStruct.swift */; };
+		84527A921C72F27F00E99DB4 /* loginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84527A8C1C72F27F00E99DB4 /* loginPageViewController.swift */; };
+		84C791681C7D64270096C186 /* profile_icon-circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C791671C7D64270096C186 /* profile_icon-circle.png */; };
+		84C7916A1C7D91870096C186 /* Menu Icon in Resources */ = {isa = PBXBuildFile; fileRef = 84C791691C7D91870096C186 /* Menu Icon */; };
+		84C7916C1C7DE88C0096C186 /* changePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C7916B1C7DE88C0096C186 /* changePasswordViewController.swift */; };
+		84F595A11C805EBF00CEEF01 /* feedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F595A01C805EBF00CEEF01 /* feedbackViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		841B4A731C7C3ADB006F3D84 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		841B4A741C7C3ADB006F3D84 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		841B4A751C7C3ADB006F3D84 /* PlayGroundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayGroundViewController.swift; sourceTree = "<group>"; };
+		84527A721C72F24700E99DB4 /* CloudCoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudCoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84527A751C72F24700E99DB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84527A7A1C72F24700E99DB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84527A7C1C72F24700E99DB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84527A7F1C72F24700E99DB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84527A811C72F24700E99DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84527A871C72F27F00E99DB4 /* CloudCoderLogo-med.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CloudCoderLogo-med.png"; sourceTree = "<group>"; };
+		84527A881C72F27F00E99DB4 /* courseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = courseTableViewController.swift; sourceTree = "<group>"; };
+		84527A891C72F27F00E99DB4 /* problemsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = problemsTableViewController.swift; sourceTree = "<group>"; };
+		84527A8A1C72F27F00E99DB4 /* sourcePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sourcePageViewController.swift; sourceTree = "<group>"; };
+		84527A8B1C72F27F00E99DB4 /* problemStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = problemStruct.swift; sourceTree = "<group>"; };
+		84527A8C1C72F27F00E99DB4 /* loginPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginPageViewController.swift; sourceTree = "<group>"; };
+		84C791671C7D64270096C186 /* profile_icon-circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile_icon-circle.png"; sourceTree = "<group>"; };
+		84C791691C7D91870096C186 /* Menu Icon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Menu Icon"; sourceTree = "<group>"; };
+		84C7916B1C7DE88C0096C186 /* changePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = changePasswordViewController.swift; sourceTree = "<group>"; };
+		84F595A01C805EBF00CEEF01 /* feedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = feedbackViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84527A6F1C72F24700E99DB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84527A691C72F24700E99DB4 = {
+			isa = PBXGroup;
+			children = (
+				84527A741C72F24700E99DB4 /* CloudCoder */,
+				84527A731C72F24700E99DB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84527A731C72F24700E99DB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84527A721C72F24700E99DB4 /* CloudCoder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84527A741C72F24700E99DB4 /* CloudCoder */ = {
+			isa = PBXGroup;
+			children = (
+				84C791691C7D91870096C186 /* Menu Icon */,
+				84527A871C72F27F00E99DB4 /* CloudCoderLogo-med.png */,
+				84C791671C7D64270096C186 /* profile_icon-circle.png */,
+				84527A751C72F24700E99DB4 /* AppDelegate.swift */,
+				84527A8C1C72F27F00E99DB4 /* loginPageViewController.swift */,
+				84527A881C72F27F00E99DB4 /* courseTableViewController.swift */,
+				84527A891C72F27F00E99DB4 /* problemsTableViewController.swift */,
+				84527A8A1C72F27F00E99DB4 /* sourcePageViewController.swift */,
+				841B4A731C7C3ADB006F3D84 /* MenuViewController.swift */,
+				84527A8B1C72F27F00E99DB4 /* problemStruct.swift */,
+				841B4A741C7C3ADB006F3D84 /* BaseViewController.swift */,
+				841B4A751C7C3ADB006F3D84 /* PlayGroundViewController.swift */,
+				84C7916B1C7DE88C0096C186 /* changePasswordViewController.swift */,
+				84F595A01C805EBF00CEEF01 /* feedbackViewController.swift */,
+				84527A791C72F24700E99DB4 /* Main.storyboard */,
+				84527A7C1C72F24700E99DB4 /* Assets.xcassets */,
+				84527A7E1C72F24700E99DB4 /* LaunchScreen.storyboard */,
+				84527A811C72F24700E99DB4 /* Info.plist */,
+			);
+			path = CloudCoder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84527A711C72F24700E99DB4 /* CloudCoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84527A841C72F24700E99DB4 /* Build configuration list for PBXNativeTarget "CloudCoder" */;
+			buildPhases = (
+				84527A6E1C72F24700E99DB4 /* Sources */,
+				84527A6F1C72F24700E99DB4 /* Frameworks */,
+				84527A701C72F24700E99DB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudCoder;
+			productName = CloudCoder;
+			productReference = 84527A721C72F24700E99DB4 /* CloudCoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84527A6A1C72F24700E99DB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "KGISL-MAC";
+				TargetAttributes = {
+					84527A711C72F24700E99DB4 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9AGJ7HQ45V;
+					};
+				};
+			};
+			buildConfigurationList = 84527A6D1C72F24700E99DB4 /* Build configuration list for PBXProject "CloudCoder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84527A691C72F24700E99DB4;
+			productRefGroup = 84527A731C72F24700E99DB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84527A711C72F24700E99DB4 /* CloudCoder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84527A701C72F24700E99DB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C791681C7D64270096C186 /* profile_icon-circle.png in Resources */,
+				84C7916A1C7D91870096C186 /* Menu Icon in Resources */,
+				84527A801C72F24700E99DB4 /* LaunchScreen.storyboard in Resources */,
+				84527A8D1C72F27F00E99DB4 /* CloudCoderLogo-med.png in Resources */,
+				84527A7D1C72F24700E99DB4 /* Assets.xcassets in Resources */,
+				84527A7B1C72F24700E99DB4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84527A6E1C72F24700E99DB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84527A8E1C72F27F00E99DB4 /* courseTableViewController.swift in Sources */,
+				84F595A11C805EBF00CEEF01 /* feedbackViewController.swift in Sources */,
+				84527A8F1C72F27F00E99DB4 /* problemsTableViewController.swift in Sources */,
+				84527A901C72F27F00E99DB4 /* sourcePageViewController.swift in Sources */,
+				841B4A761C7C3ADB006F3D84 /* MenuViewController.swift in Sources */,
+				84527A921C72F27F00E99DB4 /* loginPageViewController.swift in Sources */,
+				84C7916C1C7DE88C0096C186 /* changePasswordViewController.swift in Sources */,
+				841B4A781C7C3ADB006F3D84 /* PlayGroundViewController.swift in Sources */,
+				841B4A771C7C3ADB006F3D84 /* BaseViewController.swift in Sources */,
+				84527A911C72F27F00E99DB4 /* problemStruct.swift in Sources */,
+				84527A761C72F24700E99DB4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84527A791C72F24700E99DB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84527A7A1C72F24700E99DB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84527A7E1C72F24700E99DB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84527A7F1C72F24700E99DB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84527A821C72F24700E99DB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84527A831C72F24700E99DB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84527A851C72F24700E99DB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = CloudCoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kgisl.CloudCoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84527A861C72F24700E99DB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = CloudCoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kgisl.CloudCoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84527A6D1C72F24700E99DB4 /* Build configuration list for PBXProject "CloudCoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84527A821C72F24700E99DB4 /* Debug */,
+				84527A831C72F24700E99DB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84527A841C72F24700E99DB4 /* Build configuration list for PBXNativeTarget "CloudCoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84527A851C72F24700E99DB4 /* Debug */,
+				84527A861C72F24700E99DB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84527A6A1C72F24700E99DB4 /* Project object */;
+}
